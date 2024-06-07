@@ -6,3 +6,7 @@ dist
 .remote-assets
 components.d.ts
 package-lock.json
+code-smells-hall-of-fame.md
+.idea
+package-lock.json
+*.pdf
