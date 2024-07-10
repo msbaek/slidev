@@ -1,0 +1,51 @@
+/* :root { */
+/*   --slidev-slide-container-background: white; */
+/* } */
+
+html {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.slidev-layout {
+  a {
+    border: none;
+    color: #0078d4;
+    text-decoration: underline;
+    text-decoration-style: dotted; /* 밑줄을 점선으로 표시 */
+  }
+
+  a:hover {
+    border: none;
+    text-decoration: underline;
+  }
+
+  strong {
+    font-weight: 700;
+    color: orangered;
+  }
+
+  em {
+    font-style: italic;
+    color: darkblue;
+  }
+
+  &[layout="image"] {
+    background-size: contain !important;
+  }
+
+  &.end {
+    text-align: center;
+
+    & > h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+
+/* Used by the Who-am-I slide */
+.smaller {
+  font-size: .9em;
+}
+
